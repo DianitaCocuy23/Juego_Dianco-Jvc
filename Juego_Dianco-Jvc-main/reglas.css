@@ -1,0 +1,59 @@
+body {
+    /*fondo*/
+    background-image: url(https://media.istockphoto.com/id/1367980393/vector/futuristic-geometric-deep-purple-gradation-background-vector-illustration.jpg?b=1&s=612x612&w=0&k=20&c=T3smTG10TBEHsbTVqbciLkVOAtS_gP764MnvYQgHBOQ=);
+    background-repeat: no-repeat;
+    /*ampliacion de la imagen*/
+    background-size: cover;
+}
+
+h2 {
+    font-size: 70px;
+    text-align: center;
+    color: aliceblue;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    font-family: Ink Free;
+}
+
+.guia {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Ink Free;
+    margin-top: 70px;
+    line-height: 40px;
+}
+
+
+
+button {
+    margin: 55px;
+    margin-left: 42%;
+    padding: 0px 16px 4px;
+    min-height: 48px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 25%) 0px -4px inset;
+    transition-duration: 0.100s;
+    border: none;
+    display: inline block;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+
+button:hover {
+    background: rgb(219, 219, 219);
+    box-shadow: 5px 5px 20px rgb(43, 1, 71);
+    transform: translateY(-1%);
+}
+
+
+#btn_comenzar a {
+    text-decoration: none;
+}

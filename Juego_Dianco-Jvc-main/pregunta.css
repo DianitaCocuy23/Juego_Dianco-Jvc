@@ -1,0 +1,82 @@
+body{
+    /*fondo*/
+        background-image: url(https://media.istockphoto.com/id/1367980393/vector/futuristic-geometric-deep-purple-gradation-background-vector-illustration.jpg?b=1&s=612x612&w=0&k=20&c=T3smTG10TBEHsbTVqbciLkVOAtS_gP764MnvYQgHBOQ=);
+        background-repeat: no-repeat;
+        /*ampliacion de la imagen*/
+        background-size: cover;
+        font-size: 120%;
+       
+    }
+
+    /*edicion de la pregunta*/
+#encabezado{
+    margin: 90px 0px 50px;
+    padding: 25px;
+    border-radius: 15px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    margin-left:22%;
+    font-size: 28px;
+    font-family: Ink Free;
+    text-align: center;    
+}
+   
+/*edicion de la opciones*/
+.opcion{
+    background: white;
+    margin: 7px;
+    padding: 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    margin-left: 22.5%;
+    font-family:Bradley Hand ITC;  
+    font-size: 20px;  
+}
+
+.opcion:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+    transform: translateY(-3%);
+}
+
+#btn_continuar{
+    margin: 55px;
+    margin-left: 47%;
+    padding: 0px 16px 4px;
+    min-height: 48px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    box-shadow: rgb(0 0 0 / 25%) 0px -4px inset;
+    transition-duration: 0.100s;
+    border: none;
+    display: inline block;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: rgb(65, 17, 110);
+}
+
+
+#btn_continuar:hover{
+    background: rgb(219, 219, 219);
+    box-shadow: 5px 5px 20px rgb(43, 1, 71);
+    transform: translateY(-1%);
+}
+
+.respuesta_correcta{
+    background-color: rgb(22, 192, 6);
+    color: antiquewhite;
+}
+
+
+.respuesta_incorrecta{
+    background-color: rgb(156, 6, 6);
+    color: antiquewhite;
+    cursor: not-allowed;
+  pointer-events: all !important;
+}
+
