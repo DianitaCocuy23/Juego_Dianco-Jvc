@@ -7,7 +7,7 @@ body{
        
     }
 
-    /*edicion de la pregungta*/
+    /*edicion de la pregunta*/
 #encabezado{
     margin: 90px 0px 50px;
     padding: 25px;
@@ -18,6 +18,7 @@ body{
     width: 55%;
     margin-left: 22%;
     font-size: 30px;
+    font-family: Ink Free;
     
 }
    
@@ -32,19 +33,17 @@ body{
     justify-content: center;
     width: 55%;
     margin-left: 22.5%;
-    
-
+    font-family: Century Schoolbook;    
 }
 
-/*
 .opcion:hover{
-    background: lightgray;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+    transform: translateY(-3%);
 }
-*/
 
 #btn_continuar{
     margin: 55px;
-    margin-left: 45%;
+    margin-left: 47%;
     padding: 0px 16px 4px;
     min-height: 48px;
     font-size: 18px;
@@ -62,17 +61,20 @@ body{
 
 #btn_continuar:hover{
     background: rgb(219, 219, 219);
+    box-shadow: 5px 5px 20px rgb(43, 1, 71);
+    transform: translateY(-1%);
 }
 
 .respuesta_correcta{
-    background-color: green;
+    background-color: rgb(22, 192, 6);
     color: antiquewhite;
 }
 
 
 .respuesta_incorrecta{
-    background-color: brown;
+    background-color: rgb(156, 6, 6);
     color: antiquewhite;
     cursor: not-allowed;
   pointer-events: all !important;
 }
+

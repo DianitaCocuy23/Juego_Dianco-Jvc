@@ -1,21 +1,20 @@
-
-h1{
-    font-size:160px;
+h1 {
+    font-size: 160px;
     text-align: center;
-   color: aliceblue;
-   font-family: Showcard Gothic;
-   display: block;
+    color: aliceblue;
+    font-family: Showcard Gothic;
+    display: block;
     margin-block-start: 0.5em;
     margin-block-end: 10px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
     text-shadow: 4px 4px 4px rgb(0, 0, 0);
-   
+
 }
 
 
-h4{
+h4 {
     /*edicion del segundo titulo*/
     color: aliceblue;
     text-align: center;
@@ -28,54 +27,48 @@ h4{
     margin-inline-end: 0px;
     font-weight: bold;
     text-shadow: 0px 4px black;
-   
+
 }
 
 
-body{
-/*fondo*/
+body {
+    /*fondo*/
     background-image: url(https://media.istockphoto.com/id/1367980393/vector/futuristic-geometric-deep-purple-gradation-background-vector-illustration.jpg?b=1&s=612x612&w=0&k=20&c=T3smTG10TBEHsbTVqbciLkVOAtS_gP764MnvYQgHBOQ=);
     background-repeat: no-repeat;
     background-size: cover;
-   
 }
 
-
-button{
+button {
     margin: 55px;
-    margin-left: 45%;
+    margin-left: 47%;
     padding: 0px 16px 4px;
     min-height: 48px;
     font-size: 18px;
     font-weight: bold;
-    cursor:pointer;
+    cursor: pointer;
     box-shadow: rgb(0 0 0 / 25%) 0px -4px inset;
     transition-duration: 0.100s;
     border: none;
     display: inline block;
     border-radius: 5px;
     background-color: aliceblue;
+}
 
-   
-    }
+#btn_iniciar a {
+    text-decoration: none;
+}
 
-    #btn_comenzar a {
-        text-decoration: none;
-    }
-
-.contenedor-textos{
+.contenedor-textos {
     width: 80%;
     margin: 0px 24px 0px 160px;
     color: beige;
-   font-family: Bradley Hand ITC;
-   text-align: center;
-   font-size: 20px;
-
+    font-family: Bradley Hand ITC;
+    text-align: center;
+    font-size: 23px;
 }
 
-button:hover{
+button:hover {
     background: rgb(219, 219, 219);
+    box-shadow: 5px 5px 20px rgb(43, 1, 71);
+    transform: translateY(-1%);
 }
-
-
-/* comienza el diseño de preguntas*/
