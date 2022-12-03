@@ -28,8 +28,6 @@ h2 {
     line-height: 40px;
 }
 
-
-
 button {
     margin: 55px;
     margin-left: 42%;
@@ -45,7 +43,6 @@ button {
     border-radius: 5px;
     background-color: aliceblue;
 }
-
 
 button:hover {
     background: rgb(219, 219, 219);
