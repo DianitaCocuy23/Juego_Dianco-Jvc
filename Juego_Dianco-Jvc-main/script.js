@@ -302,7 +302,7 @@ async function calcularPuntaje() {
     })
     if (puntosTotales < 0) puntosTotales = 0
 
-    confirm(" tu puntajes es " + puntosTotales + " de 1000 " + " Deseas volver a intentarlo? ")
+    alert(" tu puntajes es " + puntosTotales + " de 1000 ")
 }
 
 /*filtro*/
