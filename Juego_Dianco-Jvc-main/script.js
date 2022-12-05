@@ -303,10 +303,7 @@ async function calcularPuntaje() {
     if (puntosTotales < 0) puntosTotales = 0
 
     if (confirm (" tu puntajes es " + puntosTotales + " de 1000 " + " Te gustaria Volver a intentarlo?")){
-        
     }
-    
-
 }
 
 /*filtro*/
@@ -335,7 +332,6 @@ function validar_respuesta(id_respuesta) {
         } else {
             element.classList.add("respuesta_incorrecta")
         }
-
     });
 }
 
